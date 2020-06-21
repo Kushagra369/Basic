@@ -61,11 +61,12 @@
  		public void actionPerformed(ActionEvent e)
  		{
  			int a = Integer.parseInt(t1.getText());
+			String name = t2.getText();
  			j4.setText("You entered number "+a);
  			j5.setText("But it doesnt even matter");
  			j6.setText("Because,");
  			j7.setText("All I want to say is");
- 			j8.setText("I Love You, Vidhi!!!");
+ 			j8.setText("Never Ever Give up"+name+"!!!");
 
  		}
  	}
